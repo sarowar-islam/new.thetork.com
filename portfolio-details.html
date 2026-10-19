@@ -35,53 +35,47 @@
     </div>
     <!-- loading section end -->
     <div class="page-wrapper relative">
-        <!--...::: Header Start :::... -->
+                <!--...::: Header Start :::... -->
         <header class="section-header relative z-30 w-full">
             <!-- Header Top -->
-            <div class="bg-colorGreyTwo px-5 py-3 sm:px-10 md:px-[60px]">
+            <div class="bg-colorDark px-5 py-3 text-white sm:px-10 md:px-[60px]">
                 <!-- Header Top Area -->
-                <div class="flex flex-wrap items-center gap-x-8 gap-y-3 sm:justify-center lg:justify-between">
+                <div class="flex flex-row-reverse flex-wrap items-center gap-x-8 gap-y-3 sm:justify-center lg:justify-between">
                     <!-- Header Top Left Block -->
                     <div>
                         <ul class="flex flex-wrap justify-center gap-x-12 gap-y-3">
                             <li class="flex items-center gap-1.5">
-                                <i class="ri-map-pin-2-fill text-colorBlue"></i>
+                                <i class="ri-time-fill text-white"></i>
                                 <address class="text-lg not-italic">
-                                    2774 Oak Drive, Plattsburgh, New York
+                                    Office Hours: 8:00 AM – 10:00 PM
                                 </address>
                             </li>
                         </ul>
                     </div>
-                    <!-- Header Top Left Block -->
                     <!-- Header Top Right Block -->
                     <div>
                         <ul class="flex flex-wrap justify-center gap-x-12 gap-y-3">
                             <li class="flex items-center gap-1.5">
-                                <i class="ri-phone-fill text-colorBlue"></i>
+                                <i class="ri-phone-fill text-white"></i>
                                 <a href="tel:+5185643200" class="text-lg">518-564-3200</a>
                             </li>
                             <li class="flex items-center gap-1.5">
-                                <i class="ri-mail-fill text-colorBlue"></i>
-                                <a href="mailto:tekup@example.com" class="text-lg">tekup@example.com</a>
+                                <i class="ri-mail-fill text-white"></i>
+                                <a href="mailto:support@thetork.com" class="text-lg">support@thetork.com</a>
                             </li>
                         </ul>
                     </div>
-                    <!-- Header Top Right Block -->
                 </div>
-                <!-- Header Top Area -->
             </div>
-            <!-- Header Top -->
 
             <!-- Header Bottom -->
             <div class="site-header bg-white px-5 py-4 sm:px-10 md:px-[60px] lg:py-0">
-                <!-- Header Bottom Area -->
                 <div class="flex items-center justify-between gap-x-8 gap-y-6 text-xl text-white">
                     <div class="flex items-center gap-14">
                         <!-- Header Logo -->
-                        <a href="index.html">
-                            <img src="https://tekup-tailwind.netlify.app/assets/img/images/logo-dark.png" alt="logo-dark" width="143" height="44" />
+                        <a href="index.html" class="flex items-center gap-2">
+                            <span class="text-3xl font-extrabold tracking-tight text-[#0119FF]">Tork</span>
                         </a>
-                        <!-- Header Logo -->
 
                         <!-- Header Navigation -->
                         <div class="menu-block-wrapper">
@@ -95,172 +89,76 @@
                                     <div class="mobile-menu-close">&times;</div>
                                 </div>
                                 <ul class="site-menu-main">
+                                    <!-- Services -->
                                     <li class="nav-item nav-item-has-children">
-                                        <a href="#" class="nav-link-item drop-trigger text-colorDark">Demo <i class="ri-arrow-down-s-line"></i>
-                                        </a>
-                                        <ul class="sub-menu" id="submenu-1">
-                                            <li class="sub-menu--item">
-                                                <a href="index.html">Main demo</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-2.html">IT Tech</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-3.html">Tech Agency</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-4.html">Startup Home</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-5.html">IT Consulting</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-6.html">Software Company</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-7.html">Digital Agency</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-8.html">Tech Company</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-9.html">IT Solutions</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="index-10.html">SASS Tech</a>
-                                            </li>
+                                        <a href="services.html" class="nav-link-item drop-trigger text-colorDark">Services <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-services">
+                                            <li class="sub-menu--item"><a href="services.html">All Services</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">Team Augmentation</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">End to End Development</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">MVP Services</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">Offshore Development</a></li>
                                         </ul>
                                     </li>
+                                    <!-- Industries -->
                                     <li class="nav-item nav-item-has-children">
-                                        <a href="#" class="nav-link-item drop-trigger text-colorDark">Pages <i class="ri-arrow-down-s-line"></i>
-                                        </a>
-                                        <ul class="sub-menu" id="submenu-4">
-                                            <li class="sub-menu--item">
-                                                <a href="about.html" data-menu-get="h3" class="drop-trigger">About
-                                                </a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="faq.html" data-menu-get="h3" class="drop-trigger">FAQ
-                                                </a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
-                                                </a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="testimonials.html" data-menu-get="h3" class="drop-trigger">Testimonial
-                                                </a>
-                                            </li>
-                                            <li class="sub-menu--item nav-item-has-children">
-                                                <a href="#" data-menu-get="h3" class="drop-trigger">Team
-                                                    <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                                <ul class="sub-menu shape-none" id="submenu-5">
-                                                    <li class="sub-menu--item">
-                                                        <a href="team.html">Teams</a>
-                                                    </li>
-                                                    <li class="sub-menu--item">
-                                                        <a href="team-details.html">Teams Details</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="sub-menu--item nav-item-has-children">
-                                                <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio
-                                                    <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                                <ul class="sub-menu shape-none" id="submenu-6">
-                                                    <li class="sub-menu--item">
-                                                        <a href="portfolio.html">Portfolio</a>
-                                                    </li>
-                                                    <li class="sub-menu--item">
-                                                        <a href="portfolio-2.html">Portfolio 2</a>
-                                                    </li>
-                                                    <li class="sub-menu--item">
-                                                        <a href="portfolio-details.html">Portfolio Details</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="sub-menu--item nav-item-has-children">
-                                                <a href="#" data-menu-get="h3" class="drop-trigger">E-commerce
-                                                    <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                                <ul class="sub-menu shape-none" id="submenu-8">
-                                                    <li class="sub-menu--item">
-                                                        <a href="products.html">Product</a>
-                                                    </li>
-                                                    <li class="sub-menu--item">
-                                                        <a href="product-details.html">Product Details</a>
-                                                    </li>
-                                                    <li class="sub-menu--item">
-                                                        <a href="cart.html">Cart</a>
-                                                    </li>
-                                                    <li class="sub-menu--item">
-                                                        <a href="checkout.html">Checkout</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="404.html" data-menu-get="h3" class="drop-trigger">404 Page
-                                                </a>
-                                            </li>
+                                        <a href="#" class="nav-link-item drop-trigger text-colorDark">Industries <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-industries">
+                                            <li class="sub-menu--item"><a href="services.html">EdTech & Learning</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Medical & Healthcare</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Business Operations</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Mobile & App Products</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Banking & Finance</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">E-commerce & Retail</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">SaaS & Technology</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">AI & Automation</a></li>
                                         </ul>
                                     </li>
+                                    <!-- Products -->
                                     <li class="nav-item nav-item-has-children">
-                                        <a href="#" class="nav-link-item drop-trigger text-colorDark">Services
-                                            <i class="ri-arrow-down-s-line"></i>
-                                        </a>
-                                        <ul class="sub-menu" id="submenu-2">
-                                            <li class="sub-menu--item">
-                                                <a href="services.html">Services</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="service-details.html">Service Details</a>
-                                            </li>
+                                        <a href="products.html" class="nav-link-item drop-trigger text-colorDark">Products <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-products">
+                                            <li class="sub-menu--item"><a href="products.html">All Products</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid Uni</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid E-Commerce</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid LMS</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid Health</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item nav-item-has-children">
-                                        <a href="#" class="nav-link-item drop-trigger text-colorDark">Blog
-                                            <i class="ri-arrow-down-s-line"></i>
-                                        </a>
-                                        <ul class="sub-menu" id="submenu-3">
-                                            <li class="sub-menu--item">
-                                                <a href="blog.html">Blog</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="blog-2.html">Blog 2</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="blog-details.html">Blogs Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    <!-- Case Study -->
                                     <li class="nav-item">
-                                        <a class="nav-link-item text-colorDark" href="contact.html">Contact</a>
+                                        <a class="nav-link-item text-colorDark" href="portfolio.html">Case Study</a>
+                                    </li>
+                                    <!-- About -->
+                                    <li class="nav-item nav-item-has-children">
+                                        <a href="about.html" class="nav-link-item drop-trigger text-colorDark">About <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-about">
+                                            <li class="sub-menu--item"><a href="about.html">About Us</a></li>
+                                            <li class="sub-menu--item"><a href="team.html">Our Leadership Team</a></li>
+                                            <li class="sub-menu--item"><a href="team.html">Our Team</a></li>
+                                            <li class="sub-menu--item"><a href="contact.html">Contact Us</a></li>
+                                            <li class="sub-menu--item"><a href="faq.html">FAQs</a></li>
+                                            <li class="sub-menu--item"><a href="testimonials.html">Testimonials</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Blog -->
+                                    <li class="nav-item">
+                                        <a class="nav-link-item text-colorDark" href="blog.html">Blog</a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
-                        <!-- Header Navigation -->
                     </div>
 
                     <div class="flex gap-20">
                         <div class="flex items-center gap-5">
-                            <!-- Responsive Offcanvas Menu Button -->
                             <div class="block lg:hidden">
                                 <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
                                     <span class="bg-colorBlue before:bg-colorBlue after:bg-colorBlue"></span>
                                 </button>
                             </div>
-                            <!-- Responsive Offcanvas Menu Button -->
-
-                            <!-- Search Button -->
-                            <button class="text-colorDark" onclick="btnOpenSearch()">
-                                <i class="ri-search-line"></i>
-                            </button>
-                            <!-- Search Button -->
-
-                            <a href="contact.html" class="btn btn-primary hidden xl:inline-flex">
-                                Get in Touch
+                            <a href="contact.html" class="btn btn-primary hidden xl:inline-flex bg-[#0119FF] text-white">
+                                Schedule a call
                                 <span>
                                     <i class="ri-arrow-right-up-line"></i>
                                     <i class="ri-arrow-right-up-line"></i>
@@ -269,10 +167,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Header Bottom Area -->
             </div>
-            <!-- Header Bottom -->
         </header>
+        <!--...::: Header Start :::... -->
         <!--...::: Header Start :::... -->
 
         <!-- Search Block -->
