@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tekup - IT Solutions and Services Tailwind Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/webfonts/afacad/stylesheet.css" />
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remix-icons/remixicon.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+</head>
+
+<body>
+    <!-- loading section start -->
+    <div class="fullpage_loader">
+        <div class="spinner"></div>
+    </div>
+    <!-- loading section end -->
+    <div class="page-wrapper relative">
+                <!--...::: Header Start :::... -->
+        <header class="section-header relative z-30 w-full">
+            <!-- Header Top -->
+            <div class="bg-colorDark px-5 py-3 text-white sm:px-10 md:px-[60px]">
+                <!-- Header Top Area -->
+                <div class="flex flex-row-reverse flex-wrap items-center gap-x-8 gap-y-3 sm:justify-center lg:justify-between">
+                    <!-- Header Top Left Block -->
+                    <div>
+                        <ul class="flex flex-wrap justify-center gap-x-12 gap-y-3">
+                            <li class="flex items-center gap-1.5">
+                                <i class="ri-time-fill text-white"></i>
+                                <address class="text-lg not-italic">
+                                    Office Hours: 8:00 AM – 10:00 PM
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Header Top Right Block -->
+                    <div>
+                        <ul class="flex flex-wrap justify-center gap-x-12 gap-y-3">
+                            <li class="flex items-center gap-1.5">
+                                <i class="ri-phone-fill text-white"></i>
+                                <a href="tel:+5185643200" class="text-lg">518-564-3200</a>
+                            </li>
+                            <li class="flex items-center gap-1.5">
+                                <i class="ri-mail-fill text-white"></i>
+                                <a href="mailto:support@thetork.com" class="text-lg">support@thetork.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Bottom -->
+            <div class="site-header bg-white px-5 py-4 sm:px-10 md:px-[60px] lg:py-0">
+                <div class="flex items-center justify-between gap-x-8 gap-y-6 text-xl text-white">
+                    <div class="flex items-center gap-14">
+                        <!-- Header Logo -->
+                        <a href="index.html" class="flex items-center gap-2">
+                            <img src="assets/img/images/logo-dark.png" alt="Tork" width="143" height="44" />
+                        </a>
+
+                        <!-- Header Navigation -->
+                        <div class="menu-block-wrapper">
+                            <div class="menu-overlay"></div>
+                            <nav class="menu-block" id="append-menu-header">
+                                <div class="mobile-menu-head">
+                                    <div class="go-back">
+                                        <i class="ri-arrow-left-s-line"></i>
+                                    </div>
+                                    <div class="current-menu-title"></div>
+                                    <div class="mobile-menu-close">&times;</div>
+                                </div>
+                                <ul class="site-menu-main">
+                                    <!-- Services -->
+                                    <li class="nav-item nav-item-has-children">
+                                        <a href="services.html" class="nav-link-item drop-trigger text-colorDark">Services <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-services">
+                                            <li class="sub-menu--item"><a href="services.html">All Services</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">Team Augmentation</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">End to End Development</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">MVP Services</a></li>
+                                            <li class="sub-menu--item"><a href="service-details.html">Offshore Development</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Industries -->
+                                    <li class="nav-item nav-item-has-children">
+                                        <a href="#" class="nav-link-item drop-trigger text-colorDark">Industries <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-industries">
+                                            <li class="sub-menu--item"><a href="services.html">EdTech & Learning</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Medical & Healthcare</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Business Operations</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Mobile & App Products</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">Banking & Finance</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">E-commerce & Retail</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">SaaS & Technology</a></li>
+                                            <li class="sub-menu--item"><a href="services.html">AI & Automation</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Products -->
+                                    <li class="nav-item nav-item-has-children">
+                                        <a href="products.html" class="nav-link-item drop-trigger text-colorDark">Products <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-products">
+                                            <li class="sub-menu--item"><a href="products.html">All Products</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid Uni</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid E-Commerce</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid LMS</a></li>
+                                            <li class="sub-menu--item"><a href="product-details.html">Zepid Health</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Case Study -->
+                                    <li class="nav-item">
+                                        <a class="nav-link-item text-colorDark" href="case-study.html">Case Study</a>
+                                    </li>
+                                    <!-- About -->
+                                    <li class="nav-item nav-item-has-children">
+                                        <a href="about.html" class="nav-link-item drop-trigger text-colorDark">About <i class="ri-arrow-down-s-line"></i></a>
+                                        <ul class="sub-menu" id="submenu-about">
+                                            <li class="sub-menu--item"><a href="about.html">About Us</a></li>
+                                            <li class="sub-menu--item"><a href="sister-concerns.html">Sister Concerns</a></li>
+                                            <li class="sub-menu--item"><a href="team.html">Our Leadership Team</a></li>
+                                            <li class="sub-menu--item"><a href="team.html">Our Team</a></li>
+                                            <li class="sub-menu--item"><a href="contact.html">Contact Us</a></li>
+                                            <li class="sub-menu--item"><a href="faq.html">FAQs</a></li>
+                                            <li class="sub-menu--item"><a href="testimonials.html">Testimonials</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Blog -->
+                                    <li class="nav-item">
+                                        <a class="nav-link-item text-colorDark" href="blog.html">Blog</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-20">
+                        <div class="flex items-center gap-5">
+                            <div class="block lg:hidden">
+                                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                    <span class="bg-colorBlue before:bg-colorBlue after:bg-colorBlue"></span>
+                                </button>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary hidden xl:inline-flex bg-[#5f59f7] text-white">
+                                Schedule a call
+                                <span>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--...::: Header Start :::... -->
+        <!--...::: Header Start :::... -->
+
+        <!-- Search Block -->
+        <div id="search-block" class="fixed left-0 top-0 z-[999] w-full -translate-y-full bg-white pb-10 pt-20 transition-all duration-300 md:pb-[60px] lg:pb-20 lg:pt-[100px] xl:pt-[130px]">
+            <button class="absolute right-8 top-8 text-[2rem] leading-none text-[#6E6E77] hover:text-colorBlue" onclick="btnCloseSearch()">
+                <i class="ri-close-large-fill"></i>
+            </button>
+
+            <div class="container">
+                <form action="#" method="get" class="relative mb-3">
+                    <input type="search" placeholder="Search here..." class="border-colorGray w-full border-b pb-5 pr-20 leading-none outline-none focus-visible:border-colorDark md:text-2xl lg:text-[2rem]" required />
+                    <button type="submit" class="absolute right-0 top-0 p-5 leading-none">
+                        <i class="ri-search-line"></i>
+                    </button>
+                </form>
+                <p>Type above and press Enter to search. Press Close to cancel.</p>
+            </div>
+        </div>
+        <!-- Search Block -->
+
+        <!-- Info Offcanvas Block -->
+        <div id="info-menu-block" class="fixed right-0 top-0 z-[999] flex min-h-dvh max-w-md translate-x-full flex-col justify-between gap-10 bg-white px-12 py-16 transition-all duration-300">
+            <button class="absolute right-8 top-8 text-[2rem] leading-none text-[#6E6E77] hover:text-colorBlue" onclick="btnCloseInfoMenu()">
+                <i class="ri-close-large-fill"></i>
+            </button>
+
+            <!-- Info Menu Top Block -->
+            <div>
+                <a href="index.html" class="mb-6 block">
+                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/logo-dark.png" alt="logo-dark" width="143" height="44" />
+                </a>
+                <p>
+                    Vast numbers of employees now work remotely, and it’s too late to
+                    develop a set of remote-work policies if you didn’t already have
+                    one.
+                </p>
+            </div>
+            <!-- Info Menu Top Block -->
+
+            <!-- Info Menu Bottom Block -->
+            <div class="mt-auto">
+                <ul class="flex flex-col gap-y-12">
+                    <li>
+                        <span class="text-colorBlue">
+                            <i class="ri-map-pin-2-fill"></i>
+                        </span>
+                        <span class="mb-1.5 mt-4 block text-2xl font-semibold">Address</span>
+                        <address class="block max-w-52">
+                            1791 Yorkshire Circle Kitty Hawk, NC 279499
+                        </address>
+                    </li>
+                    <li>
+                        <span class="text-colorBlue">
+                            <i class="ri-mail-fill"></i>
+                        </span>
+                        <span class="mb-1.5 mt-4 block text-2xl font-semibold">Contact</span>
+                        <a href="mailto:tekup@example.com" class="block hover:text-colorBlue">tekup@example.com</a>
+                        <a href="tel:+5185643200" class="block hover:text-colorBlue">518-564-3200</a>
+                    </li>
+                    <li>
+                        <div class="flex gap-2">
+                            <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorBlue hover:text-white">
+                                <i class="ri-twitter-x-line"></i>
+                            </a>
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorBlue hover:text-white">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorBlue hover:text-white">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorBlue hover:text-white">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Info Menu Bottom Block -->
+        </div>
+        <!-- Info Offcanvas Block -->
+
+        <!-- Overlay Block -->
+        <div class="overlay-block fixed left-0 top-0 z-50 hidden size-full bg-black/85" onclick="closeUserEvent()"></div>
+        <!-- Overlay Block -->
+
+        <!-- Main Wrapper -->
+        <main class="main-wrapper relative overflow-hidden">
+            <!--...::: Breadcrumb Section Start :::... -->
+            <section class="section-breadcrumb">
+                <div class="relative z-10">
+                    <!-- Breadcrumb Space -->
+                    <div class="breadcrumb-space">
+                        <!-- Section Container -->
+                        <div class="container">
+                            <!-- Breadcrumb Area -->
+                            <div class="text-center text-white">
+                                <h1 class="mb-4 text-white">
+                                    Sister Concerns
+                                </h1>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li class="breadcrumb-item active" aria-current="page">
+                                            Sister Concerns
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!-- Breadcrumb Area -->
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Breadcrumb Space -->
+
+                    <!-- Breadcrumb Background Image -->
+                    <div class="absolute inset-0 -z-20">
+                        <img src="https://tekup-tailwind.netlify.app/assets/img/images/home-1/breadcrumb-bg.jpg" width="1920" height="500" alt="breadcrumb-bg" class="size-full object-cover" />
+                    </div>
+                    <!-- Breadcrumb Background Image -->
+                    <!-- Breadcrumb Background Overlay -->
+                    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-colorBlue/70 via-colorBlue/40 to-colorBlue/70"></div>
+                    <!-- Breadcrumb Background Overlay -->
+                </div>
+            </section>
+            <!--...::: Breadcrumb Section End :::... -->
+
+            <!--...::: Sister Concerns Section Start :::... -->
+            <div class="section-sister-concerns">
+                <!-- Section Space -->
+                <div class="section-space">
+                    <!-- Section Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="mx-auto mb-16 max-w-2xl text-center">
+                            <span class="text-colorBlue font-semibold uppercase tracking-wider mb-3 block">Our Ecosystem</span>
+                            <h2 class="display-heading display-heading-2">Explore Tork's Sister Concerns</h2>
+                        </div>
+                        <!-- Section Title -->
+
+                        <!-- Z-Pattern List -->
+                        <ul class="flex flex-col gap-12 lg:gap-16">
+                            <!-- Item 1: Image Left, Text Right -->
+                            <li class="jos grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16 border border-colorGrey bg-white p-8 md:p-12 shadow-customOne">
+                                <div class="overflow-hidden rounded-xl group">
+                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/home-1/blog-wide-img-1.jpg" alt="Tork Technologies" width="856" height="570" class="w-full h-auto object-cover transition-all duration-500 group-hover:scale-105" />
+                                </div>
+                                <div class="flex flex-col justify-center">
+                                    <span class="text-colorBlue font-semibold text-lg mb-2">Core IT & Software Development</span>
+                                    <h3 class="display-heading display-heading-3 mb-5">Tork Technologies</h3>
+                                    <p class="text-xl text-[#6E6E77] mb-8">
+                                        Delivering robust enterprise software, cutting-edge web applications, and comprehensive IT infrastructure solutions to scale modern businesses efficiently and securely.
+                                    </p>
+                                    <div>
+                                        <a href="services.html" class="btn btn-primary">
+                                            Learn More
+                                            <span>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 2: Text Left, Image Right (Z-Pattern) -->
+                            <li class="jos grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16 border border-colorGrey bg-white p-8 md:p-12 shadow-customOne">
+                                <div class="flex flex-col justify-center lg:order-1">
+                                    <span class="text-colorBlue font-semibold text-lg mb-2">EdTech, Learning & E-Commerce</span>
+                                    <h3 class="display-heading display-heading-3 mb-5">Zepid Ecosystem</h3>
+                                    <p class="text-xl text-[#6E6E77] mb-8">
+                                        Powering digital education with Zepid LMS and advanced e-commerce platforms that streamline learning management and digital storefront operations globally.
+                                    </p>
+                                    <div>
+                                        <a href="products.html" class="btn btn-primary">
+                                            Explore Products
+                                            <span>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden rounded-xl group lg:order-2">
+                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/home-1/blog-wide-img-2.jpg" alt="Zepid Ecosystem" width="856" height="570" class="w-full h-auto object-cover transition-all duration-500 group-hover:scale-105" />
+                                </div>
+                            </li>
+
+                            <!-- Item 3: Image Left, Text Right -->
+                            <li class="jos grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16 border border-colorGrey bg-white p-8 md:p-12 shadow-customOne">
+                                <div class="overflow-hidden rounded-xl group">
+                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/home-1/blog-wide-img-3.jpg" alt="Tork Health" width="856" height="570" class="w-full h-auto object-cover transition-all duration-500 group-hover:scale-105" />
+                                </div>
+                                <div class="flex flex-col justify-center">
+                                    <span class="text-colorBlue font-semibold text-lg mb-2">Healthcare & Medical Tech</span>
+                                    <h3 class="display-heading display-heading-3 mb-5">Tork Health</h3>
+                                    <p class="text-xl text-[#6E6E77] mb-8">
+                                        Building secure, HIPAA-compliant healthcare portals and practice management software to improve patient care and hospital workflows.
+                                    </p>
+                                    <div>
+                                        <a href="services.html" class="btn btn-primary">
+                                            Learn More
+                                            <span>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 4: Text Left, Image Right (Z-Pattern) -->
+                            <li class="jos grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16 border border-colorGrey bg-white p-8 md:p-12 shadow-customOne">
+                                <div class="flex flex-col justify-center lg:order-1">
+                                    <span class="text-colorBlue font-semibold text-lg mb-2">Enterprise Cyber Security</span>
+                                    <h3 class="display-heading display-heading-3 mb-5">Tork Security</h3>
+                                    <p class="text-xl text-[#6E6E77] mb-8">
+                                        Safeguarding critical digital assets with advanced threat intelligence, vulnerability assessments, and proactive penetration testing.
+                                    </p>
+                                    <div>
+                                        <a href="services.html" class="btn btn-primary">
+                                            Learn More
+                                            <span>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="overflow-hidden rounded-xl group lg:order-2">
+                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/home-1/blog-wide-img-4.jpg" alt="Tork Security" width="856" height="570" class="w-full h-auto object-cover transition-all duration-500 group-hover:scale-105" />
+                                </div>
+                            </li>
+
+                            <!-- Item 5: Image Left, Text Right -->
+                            <li class="jos grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16 border border-colorGrey bg-white p-8 md:p-12 shadow-customOne">
+                                <div class="overflow-hidden rounded-xl group">
+                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/home-1/blog-wide-img-5.jpg" alt="Tork AI Labs" width="856" height="570" class="w-full h-auto object-cover transition-all duration-500 group-hover:scale-105" />
+                                </div>
+                                <div class="flex flex-col justify-center">
+                                    <span class="text-colorBlue font-semibold text-lg mb-2">AI & Business Automation</span>
+                                    <h3 class="display-heading display-heading-3 mb-5">Tork AI Labs</h3>
+                                    <p class="text-xl text-[#6E6E77] mb-8">
+                                        Integrating state-of-the-art LLMs, predictive analytics, and automated workflows to revolutionize operational efficiency and customer engagement.
+                                    </p>
+                                    <div>
+                                        <a href="services.html" class="btn btn-primary">
+                                            Learn More
+                                            <span>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                                <i class="ri-arrow-right-up-line"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- Z-Pattern List -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Space -->
+            </div>
+            <!--...::: Sister Concerns Section End :::... -->
+        </main>
+        <!-- Main Wrapper -->
+
+        <!--...::: Footer Section Start :::... -->
+        <footer class="section-footer">
+            <!-- Footer Background -->
+            <div class="bg-colorDark text-xl text-white">
+                <!-- Footer Top -->
+                <div class="section-space">
+                    <!-- Section Container -->
+                    <div class="container">
+                        <!-- Footer Top Area -->
+                        <div class="flex flex-wrap gap-x-10 gap-y-[60px] lg:justify-between">
+                            <!-- Footer Widget - About -->
+                            <div class="max-w-80 xl:max-w-[306px]">
+                                <a href="index.html">
+                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/logo-light.png" alt="logo-light" width="143" height="44" class="mb-8 inline-block" />
+                                </a>
+                                <p class="mb-6">
+                                    We are architects of advancement, and partners in your
+                                    success. As a dynamic forward
+                                </p>
+
+                                <!-- Social Links -->
+                                <div class="flex gap-2">
+                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#1F202E] text-lg hover:bg-colorBlue hover:text-white">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                    <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#1F202E] text-lg hover:bg-colorBlue hover:text-white">
+                                        <i class="ri-twitter-x-line"></i>
+                                    </a>
+
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#1F202E] text-lg hover:bg-colorBlue hover:text-white">
+                                        <i class="ri-instagram-line"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#1F202E] text-lg hover:bg-colorBlue hover:text-white">
+                                        <i class="ri-linkedin-fill"></i>
+                                    </a>
+                                </div>
+                                <!-- Social Links -->
+                            </div>
+                            <!-- Footer Widget - About -->
+                            <!-- Footer Widget - Navigation -->
+                            <div>
+                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">Quick Links</span>
+                                <nav class="flex flex-col gap-y-3">
+                                    <a href="about.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+                                            About Us
+                                        </span>
+                                    </a>
+                                    <a href="team.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Our Team</span>
+                                    </a>
+                                    <a href="pricing.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Pricing Plans</span>
+                                    </a>
+                                    <a href="blog.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Blogs</span>
+                                    </a>
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Contact Us</span>
+                                    </a>
+                                </nav>
+                            </div>
+                            <!-- Footer Widget - Navigation -->
+
+                            <!-- Footer Widget - Navigation -->
+                            <div>
+                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">Services</span>
+                                <nav class="flex flex-col gap-y-3">
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+                                            UI/UX Design
+                                        </span>
+                                    </a>
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">App Development</span>
+                                    </a>
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Digital Marketing</span>
+                                    </a>
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Web Development</span>
+                                    </a>
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">Cyber Security</span>
+                                    </a>
+                                </nav>
+                            </div>
+                            <!-- Footer Widget - Navigation -->
+
+                            <!-- Footer Widget - About -->
+                            <div class="max-w-80 xl:max-w-[330px]">
+                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">Subscribe Our Newsletter</span>
+                                <p class="mb-6">
+                                    Get ready to work together for the better solution for your
+                                    business
+                                </p>
+
+                                <form action="#" method="post" class="relative">
+                                    <input type="email" placeholder="Enter your email" class="required w-full border border-white/50 bg-colorDark px-6 py-4 pr-16 outline-none transition-all duration-300 placeholder:text-white/60 focus-visible:border-white" />
+                                    <button type="submit" class="absolute right-0 top-0 h-full px-5 text-xl text-white">
+                                        <i class="ri-send-plane-fill"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <!-- Footer Widget - About -->
+                        </div>
+                        <!-- Footer Top Area -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Footer Top -->
+                <div class="container border-t border-white/10"></div>
+                <!-- Footer Bottom -->
+                <div class="py-11">
+                    <!-- Section Container -->
+                    <div class="container">
+                        <!-- Footer Area -->
+                        <div class="text-center">
+                            <p class="mb-0">
+                                Copyright &copy;
+                                <span id="copyright-year">2024</span> Mthemeus. All rights
+                                reserved.
+                            </p>
+                        </div>
+                        <!-- Footer Area -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Footer Bottom -->
+            </div>
+            <!-- Footer Background -->
+        </footer>
+        <!--...::: Footer Section End :::... -->
+    </div>
+
+    <!--Vendor js-->
+
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/SplitText3.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <script src="assets/js/vendors/gsap-animate.js"></script>
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
