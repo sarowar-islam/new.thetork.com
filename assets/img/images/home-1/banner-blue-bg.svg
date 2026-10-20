@@ -1,9 +1,9 @@
 <svg width="380" height="454" viewBox="0 0 380 454" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_1_5232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="380" height="454">
-<rect width="380" height="454" fill="#0119FF"/>
+<rect width="380" height="454" fill="#5f59f7"/>
 </mask>
 <g mask="url(#mask0_1_5232)">
-<rect width="380" height="454" fill="#0119FF"/>
+<rect width="380" height="454" fill="#5f59f7"/>
 <rect x="-28.752" y="401.574" width="624.63" height="192.443" transform="rotate(-61.0492 -28.752 401.574)" fill="url(#paint0_linear_1_5232)"/>
 <rect width="624.63" height="192.443" transform="matrix(0.484046 -0.875042 -0.875042 -0.484046 132.396 714.714)" fill="url(#paint1_linear_1_5232)"/>
 </g>

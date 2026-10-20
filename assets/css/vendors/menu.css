@@ -501,7 +501,6 @@
   position: relative;
 }
 
-
 @media (min-width: 992px) {
   .site-menu-main .sub-menu--item > a {
     transition: 0.4s;
@@ -516,13 +515,13 @@
     bottom: 0;
     width: 0%;
     height: 2px;
-    background: #0119ff;
+    background: #5f59f7;
     transition: all 0.3s ease;
   }
 }
 
 .site-menu-main .sub-menu--item:hover > a {
-  color: #0119ff;
+  color: #5f59f7;
   /* width: 100%; */
 }
 
@@ -914,10 +913,10 @@
   text-transform: capitalize;
 }
 
-.sub-menu--item.nav-item-has-children > a{
+.sub-menu--item.nav-item-has-children > a {
   display: flex;
 }
-.sub-menu--item.nav-item-has-children > a::after{
+.sub-menu--item.nav-item-has-children > a::after {
   display: none;
 }
 
