@@ -1145,136 +1145,317 @@
         <!-- Main Wrapper -->
 
         <!--...::: Footer Section Start :::... -->
-        <footer class="section-footer">
-            <!-- Footer Background -->
-            <div class="bg-white text-xl">
-                <!-- Footer Top -->
-                <div class="section-space">
-                    <!-- Section Container -->
-                    <div class="container">
-                        <!-- Footer Top Area -->
-                        <div class="flex flex-wrap gap-x-10 gap-y-[60px] lg:justify-between">
-                            <!-- Footer Widget - About -->
-                            <div class="max-w-80 xl:max-w-[306px]">
-                                <a href="index.html">
-                                    <img src="https://tekup-tailwind.netlify.app/assets/img/images/logo-dark.png" alt="logo-dark.png" width="143" height="44" class="mb-8 inline-block" />
+        <footer class="section-footer w-full bg-white text-colorDark">
+            <div class="grid grid-cols-12">
+
+                <!-- LEFT SECTION: LOGO AND NAVIGATION -->
+                <div class="col-span-12 lg:col-span-7 bg-white px-6 py-14 sm:px-10 lg:p-12">
+                    <div class="flex flex-col justify-between h-full">
+
+                        <!-- Top: Columns Grid -->
+                        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+
+                            <!-- Brand Logo Column -->
+                            <div class="mb-6 lg:mb-0">
+                                <a href="index.html" aria-label="Tork homepage" class="inline-block">
+                                    <img src="assets/img/images/logo-dark.png" alt="Tork" width="143" height="44" />
                                 </a>
-                                <p class="mb-6">
-                                    We are architects of advancement, and partners in your
-                                    success. As a dynamic forward
-                                </p>
-
-                                <!-- Social Links -->
-                                <div class="flex gap-2">
-                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGreyTwo text-lg hover:bg-colorBlue hover:text-white">
-                                        <i class="ri-facebook-fill"></i>
-                                    </a>
-                                    <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGreyTwo text-lg hover:bg-colorBlue hover:text-white">
-                                        <i class="ri-twitter-x-line"></i>
-                                    </a>
-
-                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGreyTwo text-lg hover:bg-colorBlue hover:text-white">
-                                        <i class="ri-instagram-line"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-colorGreyTwo text-lg hover:bg-colorBlue hover:text-white">
-                                        <i class="ri-linkedin-fill"></i>
-                                    </a>
-                                </div>
-                                <!-- Social Links -->
                             </div>
-                            <!-- Footer Widget - About -->
-                            <!-- Footer Widget - Navigation -->
+
+                            <!-- Discover Tork -->
                             <div>
-                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">Quick Links</span>
-                                <nav class="flex flex-col gap-y-3">
+                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">
+                                    Discover Tork<span class="text-colorBlue">.</span>
+                                </span>
+
+                                <nav class="flex flex-col gap-y-3 text-base">
                                     <a href="about.html">
                                         <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
                                             About Us
                                         </span>
                                     </a>
-                                    <a href="team.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Our Team</span>
-                                    </a>
-                                    <a href="pricing.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Pricing Plans</span>
-                                    </a>
-                                    <a href="blog.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Blogs</span>
-                                    </a>
-                                    <a href="contact.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Contact Us</span>
-                                    </a>
-                                </nav>
-                            </div>
-                            <!-- Footer Widget - Navigation -->
-
-                            <!-- Footer Widget - Navigation -->
-                            <div>
-                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">Services</span>
-                                <nav class="flex flex-col gap-y-3">
                                     <a href="services.html">
                                         <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
-                                            UI/UX Design
+                                            Methodologies
                                         </span>
                                     </a>
                                     <a href="services.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">App Development</span>
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Technologies
+                                        </span>
                                     </a>
                                     <a href="services.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Digital Marketing</span>
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Certifications
+                                        </span>
                                     </a>
-                                    <a href="services.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Web Development</span>
+                                    <a href="service-details.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Software Development<br />Services
+                                        </span>
                                     </a>
-                                    <a href="services.html">
-                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">Cyber Security</span>
+                                    <a href="service-details.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Software Development<br />Solutions
+                                        </span>
+                                    </a>
+                                    <a href="service-details.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Dedicated Software<br />Development Teams
+                                        </span>
+                                    </a>
+                                    <a href="service-details.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Staff Augmentation
+                                        </span>
+                                    </a>
+                                    <a href="service-details.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Software Development<br />Outsourcing
+                                        </span>
+                                    </a>
+                                    <a href="about.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Diversity
+                                        </span>
+                                    </a>
+                                    <a href="about.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Social Responsibility
+                                        </span>
+                                    </a>
+                                    <a href="about.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Senior Advisor Program
+                                        </span>
                                     </a>
                                 </nav>
                             </div>
-                            <!-- Footer Widget - Navigation -->
 
-                            <!-- Footer Widget - About -->
-                            <div class="max-w-80 xl:max-w-[330px]">
-                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">Subscribe Our Newsletter</span>
-                                <p class="mb-6">
-                                    Get ready to work together for the better solution for your
-                                    business
-                                </p>
+                            <!-- Resources -->
+                            <div>
+                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">
+                                    Resources<span class="text-colorBlue">.</span>
+                                </span>
 
-                                <form action="#" method="post" class="relative mb-6">
-                                    <input type="email" placeholder="Enter your email" class="required w-full border border-y-colorGrey bg-white px-6 py-4 pr-16 outline-none transition-all duration-300 placeholder:text-white/60 focus-visible:border-colorBlue" />
-                                    <button type="submit" class="absolute right-0 top-0 h-full px-5 text-xl text-colorBlue">
-                                        <i class="ri-send-plane-fill"></i>
-                                    </button>
-                                </form>
+                                <nav class="flex flex-col gap-y-3 text-base">
+                                    <a href="case-study.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Case Studies
+                                        </span>
+                                    </a>
+                                    <a href="blog.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            AI Learning Hub
+                                        </span>
+                                    </a>
+                                    <a href="blog.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Blog
+                                        </span>
+                                    </a>
+                                    <a href="blog.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Press
+                                        </span>
+                                    </a>
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Industries Insights
+                                        </span>
+                                    </a>
+                                    <a href="services.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Technology Resource Center
+                                        </span>
+                                    </a>
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Client Referral Program
+                                        </span>
+                                    </a>
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Fellows Program
+                                        </span>
+                                    </a>
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Partners Program
+                                        </span>
+                                    </a>
+                                </nav>
                             </div>
-                            <!-- Footer Widget - About -->
+
+                            <!-- Careers -->
+                            <div>
+                                <span class="mb-7 block text-[26px] font-semibold leading-[1.3]">
+                                    Careers<span class="text-colorBlue">.</span>
+                                </span>
+
+                                <nav class="flex flex-col gap-y-3 text-base">
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Job Opportunities
+                                        </span>
+                                    </a>
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Talent Referrals
+                                        </span>
+                                    </a>
+                                    <a href="contact.html">
+                                        <span class="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-colorDark after:transition-all after:duration-300 hover:after:w-full">
+                                            Associate Program
+                                        </span>
+                                    </a>
+                                </nav>
+                            </div>
+
                         </div>
-                        <!-- Footer Top Area -->
-                    </div>
-                    <!-- Section Container -->
-                </div>
-                <!-- Footer Top -->
-                <div class="container border-t border-colorGrey"></div>
-                <!-- Footer Bottom -->
-                <div class="py-11">
-                    <!-- Section Container -->
-                    <div class="container">
-                        <!-- Footer Area -->
-                        <div class="text-center">
-                            <p class="mb-0">
-                                Copyright &copy;
-                                <span id="copyright-year">2024</span> Mthemeus. All rights
-                                reserved.
+
+                        <!-- Bottom: Legal Links and Copyright -->
+                        <div class="mt-14 border-t border-colorGrey pt-7 text-base">
+                            <div class="flex flex-wrap items-center gap-x-5 gap-y-2">
+                                <a href="contact.html" class="hover:text-colorBlue">Privacy Policy</a>
+                                <span>|</span>
+                                <a href="contact.html" class="hover:text-colorBlue">Terms of Service</a>
+                                <span>|</span>
+                                <a href="contact.html" class="hover:text-colorBlue">Do Not Sell My Personal Information</a>
+                            </div>
+
+                            <p class="mt-3 mb-0">
+                                Tork 2009 - 2026. All rights reserved.
                             </p>
                         </div>
-                        <!-- Footer Area -->
+
                     </div>
-                    <!-- Section Container -->
                 </div>
-                <!-- Footer Bottom -->
+
+                <!-- RIGHT SECTION: CONTACT, NEWSLETTER AND SOCIAL LINKS -->
+                <div class="col-span-12 lg:col-span-5 bg-colorGreyTwo p-6 sm:p-8 lg:p-10 xl:p-12">
+                    <div class="flex flex-col justify-between h-full">
+
+                        <!-- Contact -->
+                        <div>
+                            <span class="mb-6 block text-[26px] font-semibold leading-[1.3]">
+                                Get in touch<span class="text-colorBlue">.</span>
+                            </span>
+
+                            <div class="flex flex-wrap items-center gap-3">
+                                <a
+                                    href="contact.html"
+                                    class="btn btn-outline-dark hover:bg-colorDark hover:text-white text-base"
+                                    style="padding: 10px 22px; border-radius: 6px;"
+                                >
+                                    Contact Us
+                                </a>
+
+                                <a
+                                    href="contact.html"
+                                    class="btn btn-primary text-base"
+                                    style="padding: 10px 22px; border-radius: 6px;"
+                                >
+                                    Schedule a Call
+                                    <span>
+                                        <i class="ri-arrow-right-up-line"></i>
+                                        <i class="ri-arrow-right-up-line"></i>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <a href="tel:+14084782739" class="mt-5 inline-flex items-center gap-2 text-base font-semibold hover:text-colorBlue">
+                                <i class="ri-phone-line text-colorBlue"></i>
+                                <span>+1 (408) 478-2739</span>
+                            </a>
+                        </div>
+
+                        <!-- Newsletter -->
+                        <div class="mt-10 lg:mt-12">
+                            <p class="mb-4 text-base font-semibold leading-snug">
+                                Get insights from the experts on building and scaling technology teams.
+                            </p>
+
+                            <form action="#" method="post" class="mt-4">
+                                <label for="newsletter-email" class="mb-2 block text-sm font-medium text-colorDark">
+                                    Your e-mail address
+                                </label>
+
+                                <div class="flex flex-col sm:flex-row items-stretch gap-2.5 max-w-md">
+                                    <input
+                                        id="newsletter-email"
+                                        name="email"
+                                        type="email"
+                                        placeholder="name@email.com"
+                                        autocomplete="email"
+                                        required
+                                        class="flex-1 border border-colorGrey bg-white px-4 py-2.5 outline-none transition-all duration-300 placeholder:text-colorDark/60 focus-visible:border-colorBlue text-base"
+                                        style="border-radius: 6px; min-width: 0;"
+                                    />
+
+                                    <button
+                                        type="submit"
+                                        class="btn btn-outline-dark hover:bg-colorDark hover:text-white text-base inline-flex items-center justify-center gap-2"
+                                        style="padding: 10px 20px; border-radius: 6px; white-space: nowrap;"
+                                    >
+                                        Subscribe
+                                        <i class="ri-mail-line"></i>
+                                    </button>
+                                </div>
+
+                                <label class="mt-3 flex cursor-pointer items-start gap-2 text-sm text-colorDark">
+                                    <input
+                                        type="checkbox"
+                                        name="privacy-consent"
+                                        required
+                                        class="mt-1"
+                                    />
+                                    <span>
+                                        By subscribing I accept the
+                                        <a href="contact.html" class="underline hover:text-colorBlue">Privacy Policy</a>.
+                                    </span>
+                                </label>
+                            </form>
+                        </div>
+
+                        <!-- Social Media -->
+                        <div class="mt-10 lg:mt-12">
+                            <span class="mb-4 block text-[26px] font-semibold leading-[1.3]">
+                                Follow us<span class="text-colorBlue">.</span>
+                            </span>
+
+                            <div class="flex flex-wrap gap-2">
+                                <!-- LinkedIn -->
+                                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-colorDark hover:bg-colorBlue hover:text-white transition-all duration-300">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+
+                                <!-- Facebook -->
+                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-colorDark hover:bg-colorBlue hover:text-white transition-all duration-300">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+
+                                <!-- X -->
+                                <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" aria-label="X" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-colorDark hover:bg-colorBlue hover:text-white transition-all duration-300">
+                                    <i class="ri-twitter-x-line"></i>
+                                </a>
+
+                                <!-- Instagram -->
+                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-colorDark hover:bg-colorBlue hover:text-white transition-all duration-300">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+
+                                <!-- YouTube -->
+                                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-colorDark hover:bg-colorBlue hover:text-white transition-all duration-300">
+                                    <i class="ri-youtube-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
-            <!-- Footer Background -->
         </footer>
         <!--...::: Footer Section End :::... -->
     </div>
