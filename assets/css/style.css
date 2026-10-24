@@ -570,7 +570,7 @@ body,
   min-height: 100vh;
   overflow-x: clip;
   font-family: Afacad, sans-serif;
-  font-size: 1.375rem;
+  font-size: 20px;
   line-height: 1.45;
   --tw-text-opacity: 1;
   color: rgb(13 14 29 / var(--tw-text-opacity, 1));
@@ -590,14 +590,14 @@ h6,
 
 h1,
 .display-heading-1 {
-  font-size: 2.5rem;
+  font-size: 36px;
   line-height: 1;
 }
 
 @media (min-width: 576px) {
   h1,
   .display-heading-1 {
-    font-size: 3rem;
+    font-size: 43px;
     line-height: 1;
   }
 }
@@ -605,7 +605,7 @@ h1,
 @media (min-width: 768px) {
   h1,
   .display-heading-1 {
-    font-size: 3.75rem;
+    font-size: 54px;
     line-height: 1;
   }
 }
@@ -613,7 +613,7 @@ h1,
 @media (min-width: 992px) {
   h1,
   .display-heading-1 {
-    font-size: 4.5rem;
+    font-size: 65px;
     line-height: 1;
     letter-spacing: -1px;
   }
@@ -622,13 +622,13 @@ h1,
 @media (min-width: 1200px) {
   h1,
   .display-heading-1 {
-    font-size: 6.25rem;
+    font-size: 90px;
   }
 }
 
 h2,
 .display-heading-2 {
-  font-size: 2.25rem;
+  font-size: 32px;
   line-height: 2.5rem;
   line-height: 1;
 }
@@ -636,7 +636,7 @@ h2,
 @media (min-width: 768px) {
   h2,
   .display-heading-2 {
-    font-size: 3rem;
+    font-size: 43px;
     line-height: 1;
   }
 }
@@ -644,32 +644,32 @@ h2,
 @media (min-width: 992px) {
   h2,
   .display-heading-2 {
-    font-size: 3.5rem;
+    font-size: 50px;
     letter-spacing: -1px;
   }
 }
 
 h3,
 .display-heading-3 {
-  font-size: 1.875rem;
+  font-size: 27px;
   line-height: 2.25rem;
 }
 
 h4,
 .display-heading-4 {
-  font-size: 1.625rem;
+  font-size: 23px;
   line-height: 1.375;
 }
 
 h5,
 .display-heading-5 {
-  font-size: 1.25rem;
+  font-size: 18px;
   line-height: 1.75rem;
 }
 
 h6,
 .display-heading-6 {
-  font-size: 1.125rem;
+  font-size: 16px;
   line-height: 1.75rem;
 }
 
@@ -727,27 +727,30 @@ p:last-child {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  -moz-column-gap: 0.75rem;
-  column-gap: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  -moz-column-gap: 0.625rem;
+  column-gap: 0.625rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 18px;
   font-weight: 500;
 }
 
 @media (min-width: 992px) {
   .btn {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
   }
 }
 
 .btn span {
   position: relative;
   display: inline-flex;
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -795,8 +798,8 @@ p:last-child {
 .btn-icon span {
   position: relative;
   display: inline-flex;
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -2398,48 +2401,48 @@ p:last-child {
 }
 
 .text-2xl {
-  font-size: 1.5rem;
+  font-size: 22px;
   line-height: 2rem;
 }
 
 .text-3xl {
-  font-size: 1.875rem;
+  font-size: 27px;
   line-height: 2.25rem;
 }
 
 .text-5xl {
-  font-size: 3rem;
+  font-size: 43px;
   line-height: 1;
 }
 
 .text-\[2\.5rem\] {
-  font-size: 2.5rem;
+  font-size: 36px;
 }
 
 .text-\[26px\] {
-  font-size: 26px;
+  font-size: 23px;
 }
 
 .text-\[2rem\] {
-  font-size: 2rem;
+  font-size: 29px;
 }
 
 .text-\[80px\] {
-  font-size: 80px;
+  font-size: 72px;
 }
 
 .text-base {
-  font-size: 1rem;
+  font-size: 15px;
   line-height: 1.5rem;
 }
 
 .text-lg {
-  font-size: 1.125rem;
+  font-size: 16px;
   line-height: 1.75rem;
 }
 
 .text-xl {
-  font-size: 1.25rem;
+  font-size: 18px;
   line-height: 1.75rem;
 }
 
@@ -3620,12 +3623,12 @@ p:last-child {
   }
 
   .md\:text-2xl {
-    font-size: 1.5rem;
+    font-size: 22px;
     line-height: 2rem;
   }
 
   .md\:text-6xl {
-    font-size: 3.75rem;
+    font-size: 54px;
     line-height: 1;
   }
 }
@@ -3882,16 +3885,16 @@ p:last-child {
   }
 
   .lg\:text-7xl {
-    font-size: 4.5rem;
+    font-size: 65px;
     line-height: 1;
   }
 
   .lg\:text-\[26px\] {
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .lg\:text-\[2rem\] {
-    font-size: 2rem;
+    font-size: 29px;
   }
 }
 
@@ -4086,7 +4089,7 @@ p:last-child {
   }
 
   .xl\:text-\[5rem\] {
-    font-size: 5rem;
+    font-size: 72px;
   }
 
   .xl\:font-semibold {
@@ -4160,6 +4163,61 @@ p:last-child {
   }
 
   .xxl\:text-\[2\.5rem\] {
-    font-size: 2.5rem;
+    font-size: 36px;
   }
+}
+
+/* ==========================================================================
+   Typography Scaling (-10% Round Figures, Across Template)
+   ========================================================================== */
+
+/* Navigation Typography Scaling (-10%) */
+.site-menu-main .nav-link-item {
+  font-size: 18px;
+}
+
+.site-menu-main .sub-menu--item {
+  font-size: 18px;
+}
+
+.site-menu-main .sub-menu li a {
+  font-size: 14px;
+}
+
+.top-contact-block a {
+  font-size: 15px;
+}
+
+/* ==========================================================================
+   Footer Protection: Maintain exact original font sizes without reduction
+   ========================================================================== */
+.section-footer {
+  font-size: 16px;
+}
+
+.section-footer .text-\[26px\],
+.section-footer h2,
+.section-footer h3,
+.section-footer h4 {
+  font-size: 26px !important;
+}
+
+.section-footer .text-base,
+.section-footer nav a,
+.section-footer p,
+.section-footer .btn,
+.section-footer input,
+.section-footer button {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.section-footer .text-sm,
+.section-footer label {
+  font-size: 14px !important;
+}
+
+.section-footer .text-lg,
+.section-footer .social-link {
+  font-size: 18px !important;
 }
