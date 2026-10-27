@@ -121,3 +121,425 @@
     opacity: 0;
   }
 }
+
+/* ========================================================
+   Mega Menu Styles
+   ======================================================== */
+
+/* Reset unwanted global rules inside megamenu */
+.tork-megamenu,
+.tork-megamenu * {
+  box-sizing: border-box;
+}
+
+.tork-megamenu a {
+  justify-content: flex-start !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+}
+
+/* Desktop Mega Menu Dropdown */
+@media (min-width: 992px) {
+  .site-menu-main .sub-menu.tork-megamenu {
+    width: 940px;
+    min-width: 940px;
+    max-width: calc(100vw - 60px);
+    padding: 26px;
+    border-radius: 20px;
+    border: 1px solid #E7E7E8;
+    background-color: #ffffff;
+    box-shadow: 0px 18px 50px -10px rgba(13, 14, 29, 0.12);
+    left: -120px;
+    top: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-menu-main .sub-menu.tork-megamenu {
+    width: 980px;
+    min-width: 980px;
+    left: -90px;
+    padding: 28px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .site-menu-main .sub-menu.tork-megamenu {
+    width: 1020px;
+    min-width: 1020px;
+    left: -60px;
+    padding: 30px;
+  }
+}
+
+/* Internal layout */
+.tork-megamenu-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+@media (min-width: 992px) {
+  .tork-megamenu-inner {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 22px;
+  }
+}
+
+.tork-megamenu-left {
+  flex: 1 1 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tork-megamenu-right {
+  flex: 1 1 32%;
+}
+
+/* Service Cards */
+.megamenu-service-card {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  transition: all 0.25s ease;
+  background-color: transparent;
+  color: inherit;
+}
+
+.megamenu-service-card:hover {
+  background-color: #f7f7f9;
+}
+
+.megamenu-service-card .service-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.megamenu-service-card .service-icon-box i {
+  font-size: 24px !important;
+  line-height: 1;
+}
+
+.megamenu-service-card .service-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.megamenu-service-card .service-title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #0D0E1D;
+  line-height: 1.3;
+  margin: 0;
+  transition: color 0.25s ease;
+}
+
+.megamenu-service-card:hover .service-title {
+  color: #5f59f7;
+}
+
+.megamenu-service-card .arrow-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ECECEF;
+  color: #6E6E77;
+  transition: all 0.25s ease;
+}
+
+.megamenu-service-card .arrow-badge i {
+  font-size: 12px !important;
+  line-height: 1;
+}
+
+.megamenu-service-card:hover .arrow-badge {
+  background-color: #5f59f7;
+  color: #ffffff;
+  transform: translateX(2px);
+}
+
+.megamenu-service-card .service-desc {
+  font-size: 14px;
+  color: #6E6E77;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 3px 0 0 0;
+}
+
+/* Bottom Feature Banners */
+.megamenu-bottom-banners {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #E7E7E8;
+}
+
+@media (min-width: 640px) {
+  .megamenu-bottom-banners {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.megamenu-promo-box {
+  background: linear-gradient(135deg, #eefaf4 0%, #e3f7ed 100%);
+  border: 1px solid rgba(16, 185, 129, 0.18);
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.megamenu-promo-box .promo-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0D0E1D;
+  line-height: 1.35;
+  margin: 0;
+  text-align: left;
+}
+
+.megamenu-promo-box .promo-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0D0E1D;
+  margin-top: 12px;
+  transition: color 0.25s ease;
+}
+
+.megamenu-promo-box .promo-link:hover {
+  color: #5f59f7;
+}
+
+.megamenu-promo-box .promo-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #5f59f7;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+}
+
+.megamenu-promo-box .promo-icon i {
+  font-size: 13px !important;
+  line-height: 1;
+}
+
+.megamenu-promo-box .promo-link:hover .promo-icon {
+  transform: translateX(3px);
+}
+
+.megamenu-quote-box {
+  background-color: #fafafc;
+  border: 1px solid #E7E7E8;
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.megamenu-quote-box .quote-text {
+  font-size: 14px;
+  font-style: italic;
+  color: #1a1a2e;
+  line-height: 1.45;
+  margin: 0;
+  text-align: left;
+}
+
+.megamenu-quote-box .quote-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.megamenu-quote-box .author-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.megamenu-quote-box .author-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0D0E1D;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+
+.megamenu-quote-box .author-role {
+  font-size: 11px;
+  color: #6E6E77;
+  line-height: 1.2;
+  display: block;
+  text-align: left;
+}
+
+/* Hiring Solutions Panel */
+.hiring-panel {
+  background-color: #f8f9fd;
+  border: 1px solid #E7E7E8;
+  border-radius: 14px;
+  padding: 18px 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hiring-panel .hiring-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0D0E1D;
+  margin: 0 0 12px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E7E7E8;
+  text-align: left;
+}
+
+.hiring-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hiring-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 12px !important;
+  padding: 8px 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  color: inherit;
+  width: 100%;
+}
+
+.hiring-link:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(13, 14, 29, 0.05);
+}
+
+.hiring-link .hiring-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ede9fe;
+  color: #5f59f7;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.hiring-link .hiring-icon i {
+  font-size: 16px !important;
+  line-height: 1;
+}
+
+.hiring-link:hover .hiring-icon {
+  background-color: #5f59f7;
+  color: #ffffff;
+}
+
+.hiring-link .hiring-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a2e;
+  transition: color 0.2s ease;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+}
+
+.hiring-link:hover .hiring-text {
+  color: #5f59f7;
+}
+
+/* Mobile adjustments */
+@media (max-width: 991px) {
+  .site-menu-main > li .sub-menu.tork-megamenu {
+    padding: 60px 16px 30px 16px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #ffffff !important;
+  }
+
+  .tork-megamenu-inner {
+    gap: 18px;
+    padding-bottom: 40px;
+  }
+
+  .megamenu-service-card {
+    padding: 10px 8px;
+  }
+
+  .megamenu-service-card .service-icon-box {
+    width: 42px;
+    height: 42px;
+  }
+
+  .megamenu-service-card .service-icon-box i {
+    font-size: 20px !important;
+  }
+
+  .megamenu-service-card .service-title {
+    font-size: 16px;
+  }
+
+  .megamenu-service-card .service-desc {
+    font-size: 13px;
+  }
+
+  .megamenu-bottom-banners {
+    margin-top: 14px;
+    padding-top: 14px;
+    gap: 12px;
+  }
+
+  .hiring-panel {
+    padding: 14px 12px;
+  }
+}
+
