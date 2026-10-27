@@ -188,7 +188,9 @@ const btnDecrement = () => {
 // =========== Dynamic Year =============
 const currentYear = new Date().getFullYear();
 const copyrightYear = document.getElementById("copyright-year");
-copyrightYear.textContent = currentYear;
+if (copyrightYear) {
+  copyrightYear.textContent = currentYear;
+}
 
 document.addEventListener("DOMContentLoaded", function () {
   const removeButtons = document.querySelectorAll(".btn-remove-product");
@@ -394,38 +396,40 @@ const teamSliderOne = new Swiper(".team-slider-one", {
 });
 
 // Product Gallery
-var productThumb = new Swiper(".product-thumbs", {
-  slidesPerView: 3,
-  breakpoints: {
-    576: {
-      slidesPerView: 4,
+if (document.querySelector(".product-gallery")) {
+  var productThumb = new Swiper(".product-thumbs", {
+    slidesPerView: 3,
+    breakpoints: {
+      576: {
+        slidesPerView: 4,
+      },
+      768: {
+        slidesPerView: 5,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 4,
+      },
     },
-    768: {
-      slidesPerView: 5,
+    clickable: true,
+    // direction: "vertical",
+    spaceBetween: 16,
+  });
+  var productGallery = new Swiper(".product-gallery", {
+    loop: true,
+    spaceBetween: 10,
+    effect: "fade",
+    fadeEffect: {
+      crossFade: true,
     },
-    992: {
-      slidesPerView: 3,
+    navigation: {
+      nextEl: ".testimonial-slider-button-next",
+      prevEl: ".testimonial-slider-button-prev",
     },
-    1200: {
-      slidesPerView: 4,
+    thumbs: {
+      swiper: productThumb,
     },
-  },
-  clickable: true,
-  // direction: "vertical",
-  spaceBetween: 16,
-});
-var productGallery = new Swiper(".product-gallery", {
-  loop: true,
-  spaceBetween: 10,
-  effect: "fade",
-  fadeEffect: {
-    crossFade: true,
-  },
-  navigation: {
-    nextEl: ".testimonial-slider-button-next",
-    prevEl: ".testimonial-slider-button-prev",
-  },
-  thumbs: {
-    swiper: productThumb,
-  },
-});
+  });
+}
