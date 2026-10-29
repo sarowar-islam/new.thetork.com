@@ -1,3 +1,10 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "chat.tools.terminal.autoApprove": {
+        "./node_modules/.bin/tailwindcss": true,
+        "/^\\./node_modules/\\.bin/tailwindcss -i \\./src/tailwind\\.css -o \\./assets/css/style\\.css$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }

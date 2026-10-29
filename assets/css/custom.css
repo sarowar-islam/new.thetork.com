@@ -139,7 +139,7 @@
 }
 
 /* Desktop Mega Menu Dropdown */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .site-menu-main .sub-menu.tork-megamenu {
     width: 940px;
     min-width: 940px;
@@ -174,7 +174,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .site-menu-main .sub-menu.tork-megamenu {
     width: 980px;
     min-width: 980px;
@@ -201,7 +201,7 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1536px) {
   .site-menu-main .sub-menu.tork-megamenu {
     width: 1020px;
     min-width: 1020px;
@@ -235,7 +235,7 @@
   gap: 22px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .tork-megamenu-inner {
     flex-direction: row;
     align-items: stretch;
@@ -551,7 +551,7 @@
 }
 
 /* Mobile adjustments */
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .site-menu-main > li .sub-menu.tork-megamenu {
     padding: 60px 16px 30px 16px !important;
     max-width: 100% !important;
@@ -608,7 +608,7 @@
   gap: 24px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .industries-inner {
     flex-direction: row;
     align-items: stretch;
@@ -713,7 +713,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .industries-columns-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 18px;
@@ -770,7 +770,7 @@
   color: #5f59f7;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .industries-feature-panel {
     flex: 1 1 100%;
     padding: 18px 16px;
@@ -790,7 +790,7 @@
   gap: 24px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .about-inner {
     flex-direction: row;
     align-items: stretch;
@@ -883,14 +883,14 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .about-columns-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .about-columns-grid {
     gap: 20px;
   }
@@ -977,7 +977,7 @@
   color: #5f59f7;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .about-feature-panel {
     flex: 1 1 100%;
     padding: 18px 16px;
@@ -997,7 +997,7 @@
   gap: 24px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .products-inner {
     flex-direction: row;
     align-items: stretch;
@@ -1157,7 +1157,7 @@
   margin: 0;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .products-feature-panel {
     flex: 1 1 100%;
     padding: 18px 16px;

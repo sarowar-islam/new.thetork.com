@@ -113,11 +113,6 @@
   }
 }
 
-/* Container Size */
-.container {
-  @apply mx-auto max-w-full px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]  xxl:max-w-[1300px];
-}
-
 /* Section Space */
 .section-space {
   @apply py-20 lg:py-[100px] xl:py-[130px];
@@ -131,7 +126,7 @@
 
 /* Breadcrumb */
 .breadcrumb-space {
-  @apply py-20 lg:py-[100px] xl:py-[130px] xxl:py-[170px];
+  @apply py-20 lg:py-[100px] xl:py-[130px] 2xl:py-[170px];
 }
 
 .breadcrumb {
