@@ -950,6 +950,10 @@ p:last-child {
   top: 2rem;
 }
 
+.isolate {
+  isolation: isolate;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1807,12 +1811,20 @@ p:last-child {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\(\'assets\/img\/images\/home-10\/hero-img\.png\'\)\] {
+  background-image: url('assets/img/images/home-10/hero-img.png');
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\/assets\/img\/images\/home-10\/hero-img\.png\'\)\] {
+  background-image: url('/assets/img/images/home-10/hero-img.png');
 }
 
 .from-colorBlue {
@@ -1850,6 +1862,14 @@ p:last-child {
 
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .object-cover {
@@ -2686,10 +2706,50 @@ p:last-child {
   color: rgb(255 255 255 / 0.6);
 }
 
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:inset-0::before {
+  content: var(--tw-content);
+  inset: 0px;
+}
+
+.before\:-z-10::before {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.before\:bg-black\/50::before {
+  content: var(--tw-content);
+  background-color: rgb(0 0 0 / 0.5);
+}
+
 .before\:bg-colorBlue::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(95 89 247 / var(--tw-bg-opacity, 1));
+}
+
+.before\:bg-white\/50::before {
+  content: var(--tw-content);
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.before\:bg-white\/0::before {
+  content: var(--tw-content);
+  background-color: rgb(255 255 255 / 0);
+}
+
+.before\:bg-white\/70::before {
+  content: var(--tw-content);
+  background-color: rgb(255 255 255 / 0.7);
+}
+
+.before\:bg-white\/60::before {
+  content: var(--tw-content);
+  background-color: rgb(255 255 255 / 0.6);
 }
 
 .after\:absolute::after {
@@ -3000,6 +3060,10 @@ p:last-child {
     border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
+  .sm\:bg-center {
+    background-position: center;
+  }
+
   .sm\:p-8 {
     padding: 2rem;
   }
@@ -3054,6 +3118,10 @@ p:last-child {
 
   .md\:gap-\[60px\] {
     gap: 60px;
+  }
+
+  .md\:bg-center {
+    background-position: center;
   }
 
   .md\:p-12 {
@@ -3241,6 +3309,14 @@ p:last-child {
     border-bottom-width: 1px;
   }
 
+  .lg\:bg-center {
+    background-position: center;
+  }
+
+  .lg\:bg-left {
+    background-position: left;
+  }
+
   .lg\:p-10 {
     padding: 2.5rem;
   }
@@ -3282,6 +3358,11 @@ p:last-child {
   .lg\:text-\[2rem\] {
     font-size: 2rem;
   }
+
+  .lg\:before\:content-none::before {
+    --tw-content: none;
+    content: var(--tw-content);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -3307,6 +3388,10 @@ p:last-child {
 
   .xl\:max-w-3xl {
     max-width: 48rem;
+  }
+
+  .xl\:max-w-6xl {
+    max-width: 72rem;
   }
 
   .xl\:max-w-\[306px\] {
