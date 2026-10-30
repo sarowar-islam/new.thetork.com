@@ -24,7 +24,7 @@
 
   h1,
   .display-heading-1 {
-    @apply text-[36px] leading-none sm:text-[43px] md:text-[54px] lg:text-[65px] lg:-tracking-[1px] xl:text-[90px];
+    @apply text-[36px] leading-none sm:text-[43px] md:text-[54px] lg:text-[65px] lg:-tracking-[1px] xl:text-[84px];
   }
 
   h2,
