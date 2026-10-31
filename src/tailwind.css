@@ -57,7 +57,6 @@
   }
 
   p {
-    @apply mb-8 last:mb-0;
   }
 }
 
@@ -115,13 +114,13 @@
 
 /* Section Space */
 .section-space {
-  @apply py-20 lg:py-[100px] xl:py-[130px];
+  @apply py-20 lg:py-[100px] 2xl:py-[130px];
 }
 .section-space-top {
-  @apply pt-20 lg:pt-[100px] xl:pt-[130px];
+  @apply pt-20 lg:pt-[100px] 2xl:pt-[130px];
 }
 .section-space-bottom {
-  @apply pb-20 lg:pb-[100px] xl:pb-[130px];
+  @apply pb-20 lg:pb-[100px] 2xl:pb-[130px];
 }
 
 /* Breadcrumb */

@@ -34,6 +34,7 @@ module.exports = {
         colorBlue: "#5f59f7",
         colorDark: "#0D0E1D",
         colorGrey: "#E7E7E8",
+        colorDarkGrey: "#5a5a5a",
         colorGreyTwo: "#f5f5f5",
       },
 
