@@ -318,6 +318,36 @@ const portfolioSliderTwo = new Swiper(".portfolio-slider-two", {
   },
 });
 
+// =========== Case Study Slider =============
+const caseStudySlider = new Swiper(".case-study-slider", {
+  slidesPerView: "auto",
+  spaceBetween: 24,
+  rewind: true,
+  freeMode: {
+    enabled: true,
+    momentum: true,
+    momentumRatio: 2,
+    momentumVelocityRatio: 1,
+    momentumBounce: false,
+    sticky: false,
+  },
+  grabCursor: true,
+  pagination: {
+    el: ".case-study-pagination",
+    clickable: true,
+  },
+});
+
+caseStudySlider.pagination.bullets.forEach((bullet, index) => {
+  bullet.addEventListener("click", () => caseStudySlider.slideTo(index));
+  bullet.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      caseStudySlider.slideTo(index);
+    }
+  });
+});
+
 // =========== Hero Slider - 1 =============
 const heroSliderOne = new Swiper(".hero-slider-one", {
   loop: true,
