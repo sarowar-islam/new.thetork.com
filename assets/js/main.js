@@ -332,6 +332,11 @@ const caseStudySlider = new Swiper(".case-study-slider", {
     sticky: false,
   },
   grabCursor: true,
+  mousewheel: {
+    enabled: true,
+    forceToAxis: true,
+    releaseOnEdges: true,
+  },
   pagination: {
     el: ".case-study-pagination",
     clickable: true,
