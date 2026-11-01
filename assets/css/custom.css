@@ -34,6 +34,37 @@
   transition-timing-function: linear;
 }
 
+.case-study-track {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.case-study-slider .case-study-slide-wide {
+  width: 600px !important;
+}
+
+.case-study-slider .case-study-slide-square {
+  width: 400px !important;
+}
+
+@media (min-width: 1024px) {
+  .case-study-track {
+    margin-right: calc((1024px - 100vw) / 2 - 1.25rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .case-study-track {
+    margin-right: calc((1280px - 100vw) / 2 - 1.25rem);
+  }
+}
+
+@media (min-width: 1536px) {
+  .case-study-track {
+    margin-right: calc((1536px - 100vw) / 2 - 1.25rem);
+  }
+}
+
 .reveal-text {
   display: inline-block;
   position: relative;
@@ -1172,7 +1203,3 @@
     height: 50px;
   }
 }
-
-
-
-
