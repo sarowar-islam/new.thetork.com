@@ -69,10 +69,10 @@
     @apply relative inline-flex h-[20px] w-[20px] items-center justify-center overflow-hidden;
   }
   .btn span i {
-    @apply transition-all duration-300 first-of-type:translate-x-0 first-of-type:translate-y-0 last-of-type:absolute last-of-type:-translate-x-full last-of-type:translate-y-full;
+    @apply transition-all duration-300 first-of-type:translate-x-0 first-of-type:translate-y-0 last-of-type:absolute last-of-type: opacity-0 last-of-type:-translate-x-full last-of-type:translate-y-full;
   }
   .btn:hover span i {
-    @apply first-of-type:-translate-y-full first-of-type:translate-x-full last-of-type:translate-x-0 last-of-type:translate-y-0;
+    @apply first-of-type:-translate-y-full first-of-type:opacity-0 first-of-type:translate-x-full last-of-type:translate-x-0 last-of-type:translate-y-0;
   }
   .btn-icon span {
     @apply relative inline-flex h-[20px] w-[20px] items-center justify-center overflow-hidden;
