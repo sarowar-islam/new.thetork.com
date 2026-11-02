@@ -1160,6 +1160,14 @@ p {
   margin-top: auto;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1269,6 +1277,10 @@ p {
   height: 5rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-36 {
   height: 9rem;
 }
@@ -1315,6 +1327,18 @@ p {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[76px\] {
+  height: 76px;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[72px\] {
+  height: 72px;
 }
 
 .max-h-8 {
@@ -1401,6 +1425,10 @@ p {
   width: calc(100% - 56px);
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1445,6 +1473,10 @@ p {
   max-width: 20rem;
 }
 
+.max-w-\[110px\] {
+  max-width: 110px;
+}
+
 .max-w-\[150px\] {
   max-width: 150px;
 }
@@ -1483,6 +1515,10 @@ p {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[82px\] {
+  max-width: 82px;
 }
 
 .flex-1 {
@@ -1706,6 +1742,11 @@ p {
 .gap-x-28 {
   -moz-column-gap: 7rem;
        column-gap: 7rem;
+}
+
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 
 .gap-x-5 {
@@ -2224,6 +2265,11 @@ p {
 .py-\[30px\] {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pb-10 {
@@ -3253,11 +3299,6 @@ p {
   background-color: rgb(95 89 247 / var(--tw-bg-opacity, 1));
 }
 
-.group:hover .group-hover\:bg-colorDark {
-  --tw-bg-opacity: 1;
-  background-color: rgb(13 14 29 / var(--tw-bg-opacity, 1));
-}
-
 .group:hover .group-hover\:text-colorBlue {
   --tw-text-opacity: 1;
   color: rgb(95 89 247 / var(--tw-text-opacity, 1));
@@ -3378,6 +3419,11 @@ p {
     padding-right: 32px;
   }
 
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .sm\:pl-32 {
     padding-left: 8rem;
   }
@@ -3431,6 +3477,10 @@ p {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
   }
 
   .md\:gap-\[60px\] {
@@ -3621,6 +3671,18 @@ p {
     grid-template-columns: minmax(280px,19vw) minmax(0,1fr);
   }
 
+  .lg\:grid-cols-\[minmax\(0\2c 1\.15fr\)_repeat\(3\2c minmax\(0\2c 1fr\)\)\] {
+    grid-template-columns: minmax(0,1.15fr) repeat(3,minmax(0,1fr));
+  }
+
+  .lg\:grid-cols-\[minmax\(0\2c 1\.7fr\)_repeat\(3\2c minmax\(0\2c 1fr\)\)\] {
+    grid-template-columns: minmax(0,1.7fr) repeat(3,minmax(0,1fr));
+  }
+
+  .lg\:grid-cols-\[minmax\(0\2c 1\.9fr\)_repeat\(3\2c minmax\(0\2c 1fr\)\)\] {
+    grid-template-columns: minmax(0,1.9fr) repeat(3,minmax(0,1fr));
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -3635,6 +3697,10 @@ p {
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:gap-12 {
+    gap: 3rem;
   }
 
   .lg\:gap-14 {
@@ -3690,6 +3756,11 @@ p {
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .lg\:pb-20 {
