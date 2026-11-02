@@ -319,39 +319,34 @@ const portfolioSliderTwo = new Swiper(".portfolio-slider-two", {
 });
 
 // =========== Case Study Slider =============
-const caseStudySlider = new Swiper(".case-study-slider", {
-  slidesPerView: "auto",
-  spaceBetween: 24,
-  rewind: true,
-  freeMode: {
-    enabled: true,
-    momentum: true,
-    momentumRatio: 2,
-    momentumVelocityRatio: 1,
-    momentumBounce: false,
-    sticky: false,
-  },
-  grabCursor: true,
-  mousewheel: {
-    enabled: true,
-    forceToAxis: true,
-    releaseOnEdges: true,
-  },
-  pagination: {
-    el: ".case-study-pagination",
-    clickable: true,
-  },
-});
+const caseStudySection = document.querySelector(".section-case-studies");
+const caseStudySliderElement = caseStudySection?.querySelector(".case-study-slider");
 
-caseStudySlider.pagination.bullets.forEach((bullet, index) => {
-  bullet.addEventListener("click", () => caseStudySlider.slideTo(index));
-  bullet.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" || event.key === " ") {
-      event.preventDefault();
-      caseStudySlider.slideTo(index);
-    }
+if (caseStudySection && caseStudySliderElement) {
+  const caseStudyLogos = caseStudySection.querySelectorAll(".case-study-logo");
+  const caseStudySlider = new Swiper(caseStudySliderElement, {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    rewind: true,
+    autoHeight: true,
+    on: {
+      slideChange() {
+        caseStudyLogos.forEach((logo, index) => {
+          const isActive = index === this.activeIndex;
+          logo.setAttribute("aria-pressed", String(isActive));
+          logo.classList.toggle("border-colorBlue", isActive);
+          logo.classList.toggle("border-transparent", !isActive);
+          logo.classList.toggle("text-colorBlue", isActive);
+          logo.classList.toggle("text-colorDarkGrey", !isActive);
+        });
+      },
+    },
   });
-});
+
+  caseStudyLogos.forEach((logo, index) => {
+    logo.addEventListener("click", () => caseStudySlider.slideTo(index));
+  });
+}
 
 // =========== Hero Slider - 1 =============
 const heroSliderOne = new Swiper(".hero-slider-one", {
